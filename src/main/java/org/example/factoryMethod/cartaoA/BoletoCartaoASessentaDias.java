@@ -5,7 +5,7 @@ import org.example.factoryMethod.Boleto;
 public class BoletoCartaoASessentaDias extends Boleto {
     protected BoletoCartaoASessentaDias(double valor) {
         super(valor);
-        setJuros(0.12);
+        setJuros(0.10);
         setMulta(0.20);
     }
 }
